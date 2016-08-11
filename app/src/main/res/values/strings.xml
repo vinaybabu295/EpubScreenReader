@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EpubReader</string>
+    <string name="title_activity_content_view">ContentViewActivity</string>
+    <string name="button_open">OPEN</string>
+    <string name="edittext_enterpath">Enter path</string>
+    <string name="button_file">File</string>
+</resources>

@@ -277,7 +277,7 @@ public class EpubReaderActivity extends ListActivity
     protected void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
         RowData rowData = contentDetails.get(position);
-        Intent intent = new Intent(EpubReaderActivity.this, ContentViewActivity.class);
+        Intent intent = new Intent(EpubReaderActivity.this, TextRendererActivity.class);
         try {
             intent.putExtra("display", new String(rowData.getResource().getData()));
         } catch (IOException e) {

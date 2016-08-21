@@ -35,6 +35,9 @@ captures/
 # Intellij
 *.iml
 
+# Workspace files (jubabu)
+.idea/workspace.xml
+
 # Keystore files
 *.jks
 

@@ -1,20 +1,19 @@
 package com.example.vinay.epubscreenreader;
 
+import android.app.Activity;
 import android.content.res.AssetManager;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Build;
+import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.Html;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -22,7 +21,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class TextRendererActivity extends AppCompatActivity {
+public class TextRendererActivity extends Activity {
     Button prev_btn,next_btn,play_btn;
     TextView mTextView;
     CharSequence mText;

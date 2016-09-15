@@ -343,6 +343,8 @@ public class EpubReaderActivity extends ListActivity
         }
         for (String filename : files)
         {
+            if(!filename.contains("."))
+                continue;
             Log.i(TAG,"In CopyAssets " + filename);
             InputStream in = null;
             OutputStream out = null;

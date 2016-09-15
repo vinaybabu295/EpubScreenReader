@@ -41,4 +41,13 @@
         android:layout_alignRight="@+id/ebook_tv"
         android:layout_alignEnd="@+id/ebook_tv"
         android:onClick="loadNextPage" />
+
+    <Button
+        android:text="Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ebook_tv"
+        android:layout_centerHorizontal="true"
+        android:onClick="speakTeluguText"
+        android:id="@+id/play_button" />
 </RelativeLayout>
